@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #000000;
+    background-color: #04000f;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb_sLflL3ylyDa9vCpVXT6Q9_uq2DMIoNlkg&usqp=CAU");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -8,6 +8,7 @@ body {
   }
   
   header {
+    color: #ffffff;
     background-color: #000000;
     padding: 20px;
     background-image: url("https://miro.medium.com/v2/resize:fit:1200/1*GuII-UeSxb8nKklfdTaQDA.png");
@@ -20,6 +21,8 @@ body {
   }
   
   nav {
+    margin: 0;
+    padding: 0;
     background-color: #ff0000;
     color: #ffffff;
     overflow: hidden;
@@ -49,4 +52,27 @@ body {
   
   nav li a:hover {
     background:url()
+  }
+
+  table {
+    color: #000000;
+    border: 1px;
+    background-color: white;
+    width: auto;
+  }
+
+  tr {
+    border-color: black;
+
+  }
+
+  td {
+    height: auto;
+    border-color: black;
+
+  }
+
+  footer {
+    color: #ffffff;
+
   }
